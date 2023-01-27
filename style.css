@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+
+
+
+@media(min-width:1200px) {
+
+
+    body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: url(images/bg-pattern-top-desktop.svg);
+        background-size: cover;
+
+
+    }
+
+    #main {
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        width: 100%;
+        margin: 6% 10% 6% 10%;
+
+
+
+    }
+
+
+
+
+
+
+    .div-container {
+
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+
+    }
+
+    .div-texto {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+
+    }
+
+    .div-texto p {
+        color: hsl(301, 19%, 56%);
+
+
+    }
+
+    h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+        font-weight: 400, 500, 700;
+        color: hsl(300, 43%, 22%);
+    }
+
+    p {
+        font-size: 15px;
+
+    }
+
+    .div-rate {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px 0px 15px;
+
+    }
+
+    .div-rate span {
+        font-weight: bold;
+        color: hsl(300, 43%, 22%);
+    }
+
+    .flex {
+        margin-left: 150px;
+    }
+
+    .flex1 {
+        margin-left: 200px;
+    }
+
+    .flex2 {
+
+        margin-left: 250px;
+    }
+
+    .div-rated {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 370px;
+        height: 40px;
+        background-color: #f6efef;
+        margin-bottom: 15px;
+        padding: 5px;
+        border-radius: 10px;
+
+    }
+
+    .img {
+        display: flex;
+        width: 80px;
+        flex-direction: row;
+    }
+
+    .div-cards {
+
+        display: flex;
+        flex-direction: row;
+    }
+    .div-cards p{
+        color: hsl(0, 0%, 100%);
+    }
+    .div-cards p:last-child {
+
+        color: hsl(0, 0%, 100%);
+        line-height: 18px;
+
+
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 275px;
+        height: 160px;
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .card span {
+        color: hsl(333, 80%, 67%);
+        margin-top: 6px;
+
+    }
+
+    .flex3 {
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+
+    .flex4 {
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .flex0 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+
+    .flex0 img {
+        border-radius: 50px;
+        height: 40px;
+
+    }
+
+
+
+
+}
